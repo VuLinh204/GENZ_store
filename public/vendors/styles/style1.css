@@ -1,0 +1,136 @@
+/* CSS for Category List */
+.admin-container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 950px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    padding: 20px;
+}
+.brand-logo{
+    width: 180px;   
+    position: relative;
+}
+.brand-logo a {
+    position: absolute !important;
+}
+.header__logo-img {
+    overflow: hidden;
+    width: 140px;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.category-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.category-table th, .category-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.category-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.category-table a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.category-table a:hover {
+    color: #007bff;
+}
+
+.fa-square-plus, .fa-edit, .fa-trash-alt {
+    font-size: 16px;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.pagination a {
+    color: #007bff !important;
+    text-decoration: none !important;
+    margin-left: 10px !important;
+}
+
+.pagination a:hover {
+    text-decoration: underline !important;
+}
+
+.form-group label{
+    font-weight: bold;
+}
+
+.product_img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+
+    border-top: 5px solid #e74c3c;
+}
+
+.footer-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer .footer-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer i {
+    margin-right: 8px;
+    color: #e74c3c;
+}
+
+.footer p:first-of-type {
+    font-weight: bold;
+}
+
+.footer-wrap p a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.footer-wrap p a:hover {
+    text-decoration: underline;
+}

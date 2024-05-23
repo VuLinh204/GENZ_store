@@ -1,0 +1,12 @@
+.add_voucher {
+    padding: 15px 25px;
+    background-color: rgb(15, 15, 165);
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+.add_voucher:hover {
+    background-color: brown;
+    color: #fff;
+}
+
